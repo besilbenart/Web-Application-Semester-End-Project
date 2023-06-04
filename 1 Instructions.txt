@@ -1,0 +1,6 @@
+This is an web application for maintaing and hiring for new orders. 
+
+System with the internet connection would load more functionalities
+
+Even we can view it without internet
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Regiter Page</title>
+    <!--Swiper CSS link-->
+    <link
+     rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+     <!--adding font-->
+     <link rel="font" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <!--CSS link file-->
+     <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--Header Section Sarting-->
+    <section class="header">
+        <a href="HomePage.html" class="logo"> ALLinONE .</a>
+        <nav class="navbar">
+            <a href="HomePage.html"> home</a>
+            <a href="aboutUs.html"> about us</a>
+            <a href="ServicesList.html"> ServiceList</a>
+            <a href="register.html"> Hire us</a>
+        </nav>
+        <div id="menu-btn" class="fa fas-bars"></div>
+    </section>
+    <!--Header Section Ending-->
+
+    <div class="heading" style="background: url(Images/header-bg-1.png) no-repeat">
+        <h1> Register & Hire</h1>
+    </div>
+
+    <!--Form Section Starting-->
+
+    <section class="register">
+        <h1 class="heading-title">Register</h1>
+        <form action="register_form.php" method="POST" class="register-form">
+            <div class="flex">
+                <div class="inputBox">
+                    <span> name: </span>
+                    <input type="text" placeholder="enter your name" name="name" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> email: </span>
+                    <input type="email" placeholder="enter your email" name="email" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> phone: </span>
+                    <input type="number" placeholder="enter your phone no" name="phone" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> personal_address: </span>
+                    <input type="text" placeholder="enter your address" name="personaladdress" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> business_location: </span>
+                    <input type="text" placeholder="enter your businessn loacation" name="businesslocation" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> business_name: </span>
+                    <input type="text" placeholder="ex: Martin Travels" name="businessname" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> starting_date : </span>
+                    <input type="date" placeholder="expected date to  start the project" name="startdate" required>
+                </div>
+
+                <div class="inputBox">
+                    <span> finishing_date: </span>
+                    <input type="date" placeholder="expected date to be finish the project" name="finishdate" required>
+                </div>
+            </div>
+            <input type="submit" class="btn" value="Register" name="register">
+        </form>
+    </section>
+
+    <!--Form Section Finishing-->
+
+
+    <!--Footer Section Sarting-->
+
+    <section class="footer">
+        <div class="box-container">
+        <div class="box">
+            <h3> quick links</h3>
+            <a href="HomePage.html"> <i class="fas fa-angle-right"></i> home</a><br>
+            <a href="aboutUs.html"> <i class="fas fa-angle-right"></i></i>about us</a><br>
+            <a href="ServicesList.html"><i class="fas fa-angle-right"></i></i> ServiceList</a><br>
+            <a href="register.html"> <i class="fas fa-angle-right"></i></i> Register</a><br>
+        </div>
+
+        <div class="box">
+            <h3> extra links</h3>
+            <a href="#"> <i class="fas fa-angle-right"></i> ask us</a><br>
+            <a href="#"> <i class="fas fa-angle-right"></i> F A Q</a><br>
+            <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a><br>
+            <a href="#"> <i class="fas fa-angle-right"></i> term of use</a><br>
+        </div>
+
+        <div class="box">
+            <h3> contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +94 785 745 7845</a><br>
+            <a href="#"> <i class="fas fa-phone"></i> +94 789 635 8968</a><br>
+            <a href="#"> <i class="fas fa-envelope"></i>Besildev@Gmail.com</a><br>
+            <a href="#"> <i class="fas fa-map"></i> fettersso, bogawantalawa</a><br>
+        </div>
+
+        <div class="box">
+            <h3> follow </h3>
+            <a href="#"> <i class="fab fa-facebook"></i> facebook</a><br>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter</a><br>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram</a><br>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a><br>
+        </div>
+    </div>
+    <div class="credit"> Designed and Developed by: R.M. Besil Benart  |  Inspired by Mr. WebDesigner(YouTube)  |  all rights reserved.</div>
+    </section>
+    <!--Footer Section Ending-->
+
+
+    
+<!--SwiperJsS link-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!--Java Script file-->
+<script src="Script/javascript.js"> </script>
+</body>
+</html>
